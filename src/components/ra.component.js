@@ -25,7 +25,7 @@ export default class RA extends Component {
 
     render() {
       return (
-        <div style={{margin : 0, overflow: hidden}}>
+        <div style={{margin : 0}}>
           <a-scene embedded arjs='sourceType: webcam;'>
             <a-marker type='pattern' url='path/to/lab2.patt'>
               <a-plane color="#fff" height="1" width="2" rotation="-90 0 0"></a-plane>
