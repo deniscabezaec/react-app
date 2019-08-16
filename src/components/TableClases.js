@@ -9,7 +9,7 @@ class TableClases extends Component {
         this.delete = this.delete.bind(this);
     }
     delete() {
-        axios.get('https://api.alexkbza.com/declass/'+this.props.obj.idmateria)
+        axios.get('https://api.alexkbza.com/class/delete/'+this.props.obj.idmateria)
             .then(console.log('Eliminado'))
             .catch(err => console.log(err))
     }

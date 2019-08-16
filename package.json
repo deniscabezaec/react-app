@@ -1,11 +1,17 @@
 {
-  "name": "reactcrud",
-  "version": "0.1.0",
+  "name": "react-app",
+  "version": "0.5.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DenisCabezaV/api-react-app.git"
+  },
+  "author": "Denis Cabeza Valencia",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
     "react": "^16.6.1",
+    "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.6.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
