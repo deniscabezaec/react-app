@@ -8,7 +8,7 @@
   },
   "author": "Denis Cabeza Valencia",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.1.3",
     "react": "^16.6.1",
     "react-bootstrap": "^1.0.0-beta.11",
